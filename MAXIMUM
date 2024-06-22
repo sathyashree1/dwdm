@@ -1,0 +1,3 @@
+diabetest1<-read_excel("C:/Users/M.Geetha/Downloads/NARA.xlsx")
+A<-c(diabetest1$Age)
+Maximum<-Max(diabetest1$Age)
