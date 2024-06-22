@@ -1,0 +1,16 @@
+# Create vectors for names, age, and marks
+names <- c("siri", "mahi", "chiru")
+age <- c(23, 24, 25)
+marks <- c(88, 78, 25)
+
+# Create a data frame from the vectors
+df <- data.frame(names, age, marks)
+
+# Calculate the mid-range of the 'age' column
+mid_range_age <- (max(df$age) + min(df$age)) / 2
+
+# Print the mid-range of the age column
+print(paste("Mid-range of age:", mid_range_age))
+
+# Save the data frame to a CSV file
+write.csv(df, "datafr.csv", row.names = FALSE)
