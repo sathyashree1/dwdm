@@ -1,0 +1,4 @@
+n1=as.integer(readline(prompt="enter 1st number: "))
+n2=as.integer(readline(prompt = "enter 2nd number: "))
+n3=n1+n2
+print(n3)
